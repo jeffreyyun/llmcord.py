@@ -5,3 +5,5 @@
 !*.md
 !*.py
 !config-example.json
+!pyproject.toml
+!poetry.lock

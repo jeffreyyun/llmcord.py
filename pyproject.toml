@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llmcord-py"
+version = "0.1.0"
+description = ""
+authors = ["Jeffrey Yun <thisishaoyu@gmail.com>"]
+readme = "README.md"
+package-mode = false
+# packages = [{ include = "llmcord" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+"discord.py" = "^2.4.0"
+openai = "^1.52.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
